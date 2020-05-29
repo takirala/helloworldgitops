@@ -24,7 +24,7 @@ actions: [
     tasks: ["build"]
   },
   {
-    name: "hourly-build"
+    name: "hourly-gitops-build"
     tasks: ["build"]
     on: cron: {
         revision: "master" 
